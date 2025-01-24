@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>EonDB</PackageId>
+    <Version>8.0.0-rc.1-alpha</Version>
+    <Authors>Matthew Teague</Authors>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Description>Binary c# object storage anywhere</Description>
+    <PackageTags>EonDB, Storage Providers</PackageTags>
+    <RepositoryUrl>https://github.com/devmachinist/EonDB</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>  
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.S3" Version="3.7.410.5" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.23.0" />
+    <PackageReference Include="Dropbox.Api" Version="7.0.0" />
+    <PackageReference Include="Google.Cloud.Storage.V1" Version="4.10.0" />
+  </ItemGroup>
+
+</Project>
