@@ -14,7 +14,9 @@ EonDB is a lightweight and flexible database-like framework designed to manage s
 ## Installation
 
 To use EonDB in your project, include the EonDB namespace and implement or use a provided storage provider.
-
+```bash
+dotnet add package EonDB
+```
 ```csharp
 using EonDB;
 ```
